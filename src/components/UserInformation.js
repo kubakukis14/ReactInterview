@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 let renderCount = 1;
 
-const Component = ({ age }) => {
+const UserInformation = ({ age }) => {
   useEffect(() => renderCount++);
 
   if (!age) return null;
@@ -21,4 +21,4 @@ const Component = ({ age }) => {
   );
 };
 
-export default Component;
+export default UserInformation;

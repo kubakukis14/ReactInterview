@@ -1,4 +1,4 @@
-export default ({ users }) => {
+const Header = ({ users }) => {
   if (users.length === 0) return <></>;
 
   return (
@@ -8,3 +8,5 @@ export default ({ users }) => {
     </div>
   );
 };
+
+export default Header;

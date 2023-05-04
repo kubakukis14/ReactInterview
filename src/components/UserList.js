@@ -1,6 +1,6 @@
 import Name from "./Name";
 
-export default ({ users }) => {
+const UserList = ({ users }) => {
   if (users.length === 0) return <></>;
 
   return (
@@ -14,3 +14,5 @@ export default ({ users }) => {
     </div>
   );
 };
+
+export default UserList;
