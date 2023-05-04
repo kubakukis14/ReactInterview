@@ -2,19 +2,19 @@ import { useEffect } from "react";
 
 let renderCount = 1;
 
-const Component = ({ data }) => {
+const Component = ({ age }) => {
   useEffect(() => renderCount++);
 
-  if (!data.age) return null;
+  if (!age) return null;
 
   return (
     <div>
-      {data.age < 18 ? (
+      {age < 18 ? (
         <span style={{ color: "red" }}>
           You are too young to be our employee
         </span>
       ) : (
-        <span style={{}}>You are old enough :)</span>
+        <span style={{ color: "blue" }}>You are old enough :)</span>
       )}
       <small> ({renderCount})</small>
     </div>
