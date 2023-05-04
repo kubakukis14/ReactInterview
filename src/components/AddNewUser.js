@@ -1,7 +1,6 @@
 import { useState } from "react";
 import UserInformation from "./UserInformation";
 import "../styles.css";
-import { useEffect } from "react/cjs/react.production.min";
 
 export const AddNewUser = ({ users, setUsers }) => {
   const [age, setAge] = useState("");

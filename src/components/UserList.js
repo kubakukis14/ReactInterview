@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
 import Name from "./Name";
 
-export default ({ users, setUsers }) => {
+export default ({ users }) => {
   if (users.length === 0) return <></>;
 
   return (
