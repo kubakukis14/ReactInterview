@@ -6,15 +6,9 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <div>
-        <Header name={"User foo"} />
-      </div>
-      <div>
-        <AddNewUser />
-      </div>
-      <div>
-        <USERLIST />
-      </div>
+      <Header name={"User foo"} />
+      <AddNewUser />
+      <USERLIST />
     </div>
   );
 }
