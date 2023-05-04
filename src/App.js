@@ -5,7 +5,7 @@ import UserList from "./components/UserList";
 import "./styles.css";
 
 export default function App() {
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState([]); // "global" state with user array
 
   useEffect(() => {
     (async () => {
