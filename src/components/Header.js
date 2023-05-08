@@ -1,3 +1,4 @@
+// header component shows the last added employee on the top of the screen
 const Header = ({ users }) => {
   if (users.length === 0) return <></>;
 

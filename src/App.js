@@ -8,6 +8,7 @@ export default function App() {
   const [users, setUsers] = useState([]); // "global" state with user array
 
   useEffect(() => {
+    // retrieve user list from api
     (async () => {
       try {
         await new Promise((res) => {

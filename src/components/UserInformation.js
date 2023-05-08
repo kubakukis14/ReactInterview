@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 
-let renderCount = 1;
+let renderCount = 1; // tracks how many times the page was re-rendered
 
+// notifies the user if they entered the correct age and displays the rendercount
 const UserInformation = ({ age }) => {
   useEffect(() => renderCount++);
 

@@ -1,5 +1,6 @@
 import Name from "./Name";
 
+// displays the whole list of users registered in the 'users' array
 const UserList = ({ users }) => {
   if (users.length === 0) return <></>;
 

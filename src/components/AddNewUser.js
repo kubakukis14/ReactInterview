@@ -2,9 +2,10 @@ import { useState } from "react";
 import UserInformation from "./UserInformation";
 import "../styles.css";
 
+// the form for adding new users
 export const AddNewUser = ({ users, setUsers }) => {
-  const [age, setAge] = useState("");
-  const [newName, setName] = useState("");
+  const [age, setAge] = useState(""); // temporary age state
+  const [newName, setName] = useState(""); // temporary name state
 
   const handleSubmit = (e) => {
     e.preventDefault(); // prevent page refresh
